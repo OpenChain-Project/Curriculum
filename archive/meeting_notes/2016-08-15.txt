@@ -1,0 +1,11 @@
+
+2016/8/15 meeting 
+
+Due to work commitments and vacation the first draft has been pushed out to September. Still on target to release draft in October. 
+
+Call for everyone to assist with refining the existing 177 slides into ~100 slides with a few bullet point "check your understanding" questions to end each chapter
+
+Will create a new template once chapters are complete for a coherent look
+
+Wiki to track progress: https://wiki.linuxfoundation.org/openchain/curriculum
+

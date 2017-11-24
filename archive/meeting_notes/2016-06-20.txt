@@ -1,0 +1,32 @@
+
+2016/6/20 meeting, current plan is to: 
+
+refine existing 175 slides into 100 slides for circa 3 hour delivery.
+
+The slides are currently split into 12 "chapters" and we will add a one slide "check your understanding" mini-test to end each chapter
+
+We will assign one "chapter" to each explicit OpenChain Curriculum volunteer for this editing process. Coincidentally we have twelve volunteers:
+- Dave Marr
+- Jilayne Lovejoy
+- Kate Stewart
+- Ramesh Jain
+- Shane Coughlan
+- Tom Arcidiacono
+- Gary O'Neall
+- Hung Chang
+- Catharina Maracke
+- Arnold Niessen
+- Mark Radcliffe
+- Nathan Kumagai
+
+The process will be to adjust/hide slides inside each chapter as needed to refine the material, and then to add a one slide "check your understanding" quiz.
+
+The combination of the 12 "check your understanding" mini-test slides will make up our first OpenChain test material
+
+We will create a simple mapping of Curriculum slides to the Specification
+
+We will add master slide text that this Curriculum material alone is not enough for compliance
+
+We will add placeholder slides for individual company processes
+
+We will create a direct link to each chapter to make editing easier

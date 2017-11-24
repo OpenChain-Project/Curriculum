@@ -1,0 +1,13 @@
+
+2016/9/19 meeting 
+
+OpenChain Curriculum Version 1 is now available. Thanks to everyone for their contributions as we iterated, with special thanks for large-scale revisions from Gary and exceptional review, adjustment and refinement from Nathan. Slide here: https://1drv.ms/p/s!AsXJVqby5kpnhjz7p9yryf8MJUPJ
+
+The slides are divided into 8 chapters with a "Check Your Understanding" at the end of each chapter
+
+The slides will be formally launched at LinuxCon Europe in October on the 5th and we will have a 90 minute deep dive on the content -Answers to "Check Your Understanding" will be expanded in a later "handbook" for trainers with a projected release date around December, with work on that starting during our October deep-dive in LinuxCon Europe -Discussion just opened with the Linux Foundation about hosting the "Check Your Understanding" questions and answers as a free online test in the future
+
+Action item: 
+
+There is now a general request for everyone to check the slides to ensure correct terminology or further simplification of language, with a deadline of 30th September for all changes, which may take the form of direct edits or just adding comments to the slides.
+

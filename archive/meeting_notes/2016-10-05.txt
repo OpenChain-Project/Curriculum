@@ -1,0 +1,49 @@
+
+2016/10/05 LinuxCon Europe meeting, Berlin 
+
+What is next for the OpenChain Curriculum? 
+
+At LinuxCon Europe we sat down and had a detailed discussion about what we are doing, where we are going, and what deliverables are needed. 
+
+Executive summary: 
+
+- We need to create a FAQ for the curriculum
+- We need to create a "training handbook" for the slides
+- We need to integrate some comments and minor adjustments on the release slides
+- Our target for these improvements is a December 2016 release
+- Larger changes like expanding the slides will occur in 2017
+- We will open a mailing list for the Curriculum team to ensure we do not create too much traffic on this main list.
+- Our first translation is underway! Haksung Jang at LG Electronics has volunteered to translate our Release 1 slides to Korean.
+
+Details: 
+
+FAQ
+
+We need to explain some items in a FAQ: 
+Q: What is this slide deck used for? A: This is a reference deck to meet OpenChain specification 1.0, requirement 1.2 
+Q: what is the audience? A: businesses who are shipping open source and audience software staff as defined in spec 
+Q: Length of training session A: meant to be given in half day 
+Q: What jurisdiction does the IP law section cover? A: US law for now 
+Q: Are these slides everything you need to be compliant with licenses? A: No, this is a reference deck 
+Q: How to contribute? (put both in FAQ and slide deck) 
+Q: What is scanning technology 
+
+Training Handbook
+
+We decided to change the handbook for teachers into a simpler solution: 
+- we will create expanded notes under each slide for trainers and 
+- we will provide slide note reference answers to each of the "Check Your Understanding" questions.
+This will also make it easier for Gary to eventually make an online quiz to support people directly using the reference deck. 
+
+Slide Adjustments
+- We need to resolve the existing comments in the Slide notes as our first action item.
+- We need to create a placeholder for localization for different jurisdictions. Our discussion was to leverage the IFOSS Law Book as one example of reference material.
+- We need to normalize the slide to US law and state this in slides. Jilayne has taken this as an action item. Thanks Jilayne!
+- We need to make one adjustment to Chapter 6: prior to the explanation of a large enterprise process we will add a slide to say "small businesses may just use a checklist, larger enterprises will have a detailed process. Here is an example of an enterprise process."
+
+Stuff pushed back to 2017: 
+- Larger changes to Chapter 6 to make it more accessible.
+- Chapter 8 review and release.
+- We need to looking at other material to use / make OpenChain compliant. We agreed to start with existing Linux Foundation material available here:
+https://compliance.linuxfoundation.org/references/compliance-related-publications 
+

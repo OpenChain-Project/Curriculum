@@ -1,0 +1,11 @@
+2016/12/14 Linux Foundation Legal Summit, San Francisco 
+
+Launch of the OpenChain Release 2 reference slide deck.
+
+This deck has the following improvements: 
+1. There are slide notes for trainers throughout the material to make delivery easier.
+2. There are answers to the "Check Your Understanding" questions at the end of each chapter to assist with the creation of internal exams.
+3. The content of some slides has been adjusted to make things clearer and simpler.
+
+You can see the launch presentation here: openchain-release-2-launch-presentation.pptx
+

@@ -1,0 +1,18 @@
+2017/1/17 Linux Foundation Open Source Leadership Summit, Lake Tahoe 
+
+We are now getting very close to closing the Release 3 Slides. You can check out our progress here: https://1drv.ms/p/s!AsXJVqby5kpnhjz7p9yryf8MJUPJ 
+
+Key additions: Slide 2: on-boarding to the deck. Slide 55: the Chapter 6 SME Checklists Slides 57-68: Simplified Chapter 6 enterprise process 
+
+TODO: (1) We need to simplify language on the slides. I am working on Chapter 1 and 2. Nathan is working on Chapter 3 and 4. Can anyone volunteer to assist with review of Chapter 5, 6 and 7? I believe Luis is already assisting on some slides and indeed I just saw he editing online. Hurry, everyone else, don’t miss your chance! (2) We came to consensus that Chapter 8 - developer guidelines - should sync with the Linux Foundation practical GPL compliance for developers free course. Karen (in CC) has volunteered to help have a look at the slides and ensure fit. 
+
+We additionally came to consensus that: (1) The Release 3 slides will be synced to launch with the OpenChain Specification 1.1. This is currently scheduled for release on March 31st. (2) After Release 3 the Curriculum training slides will move to a yearly update cycle, reflecting that we have not only met our key goal of providing the foundation material for people to meet Section 1.2 of the OpenChain Specification, but that we have polished and refined the material over two generations to ensure usability. 
+
+In a nutshell, once we get these slides out, we will have accomplished another major milestone, and we can turn our attention to new curriculum material. 
+
+
+Overview of the planned Q1 2017 activities: 
+1. Add a "SME" checklist to Chapter 6 for small company compliance review
+2. Decide what to put in Chapter 8 for "Developer Guidelines"
+3. Review language throughout to simplify and improve clarity
+

@@ -1,0 +1,22 @@
+2016/11/21 meeting 
+
+- Slide notes in Chapters 1 and 2 complete. Chapters 3, 6 and 7 in work.
+- Call for help with "Check Your Understanding" slide notes in each chapter. 
+- Nathan Kumagai, Hung Chang and Shane Coughlan volunteered to help.
+- December release now scheduled for 12/13, align with Linux Foundation Legal Summit.
+
+Request for comment: 
+1. There was consensus that the slides follow US law and statement on slide 1 is sufficient. 
+2. Suggestion to include definitions of disjunctive and conjunctive in notes section.
+3. Will address complexity of Chapter 6 in 2017. Slide 52 will serve as placeholder. 
+
+
+1. We will seek to polish the Release 1 slides and push out the polished version as Release 2 in December 2016
+2. This will not be an extension of the existing slides, just a polish based on existing feedback contained in the slide notes
+3. It will be accompanied by a new version of the slide notes which will act as a "teacher's handbook"
+
+To action this: 
+1. We will create an FAQ to help set a clear context for the OpenChain Curriculum slides
+2. We need to close off the existing slide notes - focused as they are on improvements to content - to allow further progress towards our projected December release
+3. Once the existing slide notes are closed, work will begin on new slide notes intended to act as our "teacher's handbook" 
+
