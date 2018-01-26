@@ -1,5 +1,5 @@
 
-Curriculum by OpenChain Project
+# OpenChain Curriculum 
 
 
 The OpenChain Curriculum slide deck provides reference material,
@@ -9,6 +9,7 @@ training programs to help conform with the OpenChain Specification.
 
 
 ---
+## Copyright and License
 
 To the extent possible under law,
 the people who associated CC0 with the Curriculum
