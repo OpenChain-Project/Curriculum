@@ -1,0 +1,486 @@
+CURRICULUM
+FOSS Training Reference Slides for the OpenChain Specification 1.1
+
+Released under CC0-1.0.
+You may use, modify, and share these slides without restriction.
+They also come with no warranty.
+
+These slides follow US law. Different legal jurisdictions may have different legal requirements.
+This should be taken into account when using these slides as part of a compliance training program.
+What is the OpenChain Curriculum?
+The OpenChain Project helps to identify and share the core components
+of a Free and Open Source Software (FOSS) compliance program.
+The core of the OpenChain Project is the Specification. This identifies and publishes the core requirements a FOSS compliance program should satisfy.
+The OpenChain Curriculum supports the Specification by providing
+freely available training material.
+These slides help companies satisfy the requirements of the Specification Section 1.2. They can also be used for general compliance training.
+
+Learn more at: https://www.openchainproject.org
+
+Contents
+What is Intellectual Property?
+Introduction to FOSS Licenses
+Introduction to FOSS Compliance
+Key Software Concepts
+for FOSS Review
+FOSS Policy
+<<This is a placeholder slide to identify where your FOSS policy can be found (OpenChain Specification 1.1, section 1.1.1)>>
+
+You can get an example FOSS policy via the Linux Foundation
+Open Compliance Program at:
+https://www.linux.com/publications/generic-foss-policy
+
+CHAPTER 1
+What is Intellectual Property?
+What is “Intellectual Property”?
+Copyright: protects original works of authorship 
+Protects expression (not the underlying idea) 
+It covers software, books, and similar works
+Patents: useful inventions that are novel and non-obvious 
+Limited monopoly to incentivize innovation
+Trade secrets: protects valuable confidential information
+Trademarks: protects marks (word, logos, slogans, color, etc.) that identify
+the source of the product	
+Consumer and brand protection; avoid consumer confusion and brand dilution
+
+This chapter will focus on copyright and patents,
+the areas most relevant to FOSS compliance.
+
+Copyright Concepts in Software
+Basic rule: copyright protects creative works
+Copyright generally applies to literary works, such as books, movies, pictures, music, maps
+Software is protected by copyright
+Not the functionality (that’s protected by patents) but the expression (creativity in implementation details)
+Includes Binary Code and Source Code 
+The copyright owner only has control over the work that he or she created, not someone else’s independent creation
+Infringement may occur if copying without the permission of the author
+Copyright Rights Most Relevant to Software
+The right to reproduce the software – making copies
+The right to create “derivative works” – making modifications
+The term derivative work comes from the US Copyright Act 
+It is a “term of art” meaning that it has a particular meaning based on the statute and not the dictionary definition
+In general it refers to a new work based upon an original work to which enough original creative work has been added so that the new work represents an original work of authorship rather than a copy
+The right to distribute
+Distribution is generally viewed as the provision of a copy of a piece of software,
+in binary or source code form, to another entity (an individual or organization outside
+your company or organization)
+Note: The interpretation of what constitutes a “derivative work” or a “distribution”
+is subject to debate in the FOSS community and within FOSS legal circles
+
+Patent Concepts in Software
+Patents protect functionality – this can include a method of operation,
+such as a computer program
+Does not protect abstract ideas, laws of nature
+A patent application must be made in a specific jurisdiction in order to obtain a patent in that country. If a patent is awarded, the owner has the right to stop anybody from exercising its functionality, regardless of independent creation 
+Other parties who want to use the technology may seek a patent license (which may grant rights to use, make, have made, sell, offer for sale, and import the technology)
+Infringement may occur even if other parties independently create the same invention
+Licenses
+A “license” is the way a copyright or patent holder gives permission or rights to someone else
+The license can be limited to:
+Types of use allowed (commercial / non-commercial, distribution, derivative works / to make, have made, manufacture)
+Exclusive or non-exclusive terms
+Geographical scope
+Perpetual or time limited duration
+The license can have conditions on the grants, meaning you only get
+the license if you comply with certain obligations
+E.g, provide attribution, or give a reciprocal license
+May also include contractual terms regarding warranties, indemnification, support, upgrade, maintenance
+Check Your Understanding
+What type of material does copyright law protect?
+What copyright rights are most important for software?
+Can software be subject to a patent? 
+What rights does a patent give to the patent owner?
+If you independently develop your own software, is it possible that
+you might need a copyright license from a third party for that software?
+A patent license?
+
+CHAPTER 2
+Introduction to FOSS Licenses
+FOSS Licenses 
+FOSS licenses by definition make source code available under terms that allow for modification and redistribution
+FOSS licenses may have conditions related to providing attributions, copyright statement preservation, or a written offer to make the source code available
+One popular set of licenses are those approved by the Open Source Initiative (OSI) based on their Open Source Definition (OSD). A complete list of OSI-approved licenses is available at http://www.opensource.org/licenses/
+
+Permissive FOSS Licenses
+Permissive FOSS license: a term used often to describe minimally restrictive FOSS licenses
+Example: BSD-3-Clause
+The BSD license is an example of a permissive license that allows unlimited redistribution for any purpose in source or object code form as long as its copyright notices and the license's disclaimers of warranty are maintained
+The license contains a clause restricting use of the names of contributors for endorsement of a derived work without specific permission
+Other examples: MIT, Apache-2.0
+License Reciprocity & Copyleft Licenses
+Some licenses require that if derivative works (or software in the same file, same program or other boundary) are distributed, the distribution is under the same terms as the original work
+This is referred to as a “copyleft” or “reciprocal” effect
+Example of license reciprocity from the GPL version 2.0:
+You must cause any work that you distribute or publish, that in whole or in part contains
+or is derived from the Program or any part thereof, to be licensed […] under the terms
+of this License.
+Licenses that include reciprocity or Copyleft clauses include all versions of the GPL, LGPL, AGPL, MPL and CDDL 
+
+
+Proprietary License or Closed Source
+A proprietary software license (or commercial license or EULA) has restrictions on the usage, modification and/or distribution of the software
+Proprietary licenses are unique to each vendor – there are as many variations of proprietary licenses as there are vendors and each must be evaluated individually
+FOSS developers often use the term “proprietary” to describe a commercial non-FOSS license, even though both FOSS and proprietary licenses are based on intellectual property and provide a license grant to that property
+Other Non-FOSS Licensing Situations
+Freeware – software distributed under a proprietary license at no
+or very low cost
+The source code may or may not be available, and creation of derivative works is usually restricted
+Freeware software is usually fully functional (no locked features) and available for unlimited use (no locking on days of usage) 
+Freeware software licenses usually impose restrictions in relation to copying, distributing, and making derivative works of the software, as well as restrictions on the type of usage (personal, commercial, academic, etc.)
+Shareware – proprietary software provided to users on a trial basis,
+for a limited time, free of charge and with limited functionalities or features
+The goal of shareware is to give potential buyers the opportunity to use the program and judge its usefulness before purchasing a license for the full version of the software 
+Most companies are very leery of Shareware, because Shareware vendors often approach companies for large license payments after the software has freely propagated within their organizations.
+Other Non-FOSS Licensing Situations
+“Non-commercial” – some licenses have most of the characteristics of a FOSS license, but are limited to non-commercial use (e.g. CC-BY-NC).
+FOSS by definition cannot limit the field of use of the software
+Commercial use is a field of use so any restriction prevents the license from being FOSS
+Public Domain
+The term public domain refers to software not protected by law and therefore usable by the public without requiring a license 
+Developers may include a public domain declaration with their software 
+E. g., “All of the code and documentation in this software has been dedicated to the public domain by the authors.”
+The public domain declaration is not the same as a FOSS license
+
+A public domain declaration attempts to waive or eliminate any intellectual property rights that the developers may have in the software to make it clear that it can be used without restriction, but the enforceability of these declarations is subject to dispute within the FOSS community and its effectiveness at law varies from jurisdiction to jurisdiction
+Often the public domain declaration is accompanied by other terms, such as warranty disclaimers; in such cases, the software may be viewed as being under a license rather than being in the public domain
+
+License Compatibility
+License compatibility is the process of ensuring that license terms do not conflict. 
+If one license requires you to do something and another prohibits doing that, the licenses conflict and are not compatible if the combination of the two software modules trigger the obligations under a license.
+GPL-2.0 and EPL-1.0 each extend their obligations to “derivative works” which are distributed. 
+If a GPL-2.0 module is combined with an EPL-1.0 module and the merged module is distributed, that module must 
+(according to GPL-2.0) be distributed under GPL-2.0 only, and
+(according to EPL-1.0) under EPL-1.0 only. 
+The distributor cannot satisfy both conditions at once so the module may not be distributed. 
+This is an example of license incompatibility.
+
+The definition of “derivative work” is subject to different views in the FOSS community and
+its interpretation in law is likely to vary from jurisdiction to jurisdiction.
+Notices
+Notices, such as text in comments in file headers, often provide authorship and licensing information. FOSS licenses may also require the placement of notices in or alongside source code or documentation to give credit to the author (an attribution) or to make it clear the software includes modifications. 
+Copyright notice – an identifier placed on copies of the work to inform the world of copyright ownership. Example: Copyright © A. Person (2016) 
+License notice – a notice that specifies and acknowledges the license terms and conditions of the FOSS included in the product.
+Attribution notice – a notice included in the product release that acknowledges the identity of the original authors and / or sponsors of the FOSS included in the product.
+Modification notice – a notice that you have made modifications to the source code of a file, such as adding your copyright notice to the top of the file. 
+Multi-Licensing
+Multi-licensing refers to the practice of distributing software under two or more different sets of terms and conditions simultaneously
+E.g., when software is “dual licensed,” the copyright owner gives each recipient the choice of two licenses
+Note: This should not be confused for situations in which a licensor imposes more than one license, and you must comply with all of them
+
+Check Your Understanding
+What is a FOSS license?
+What are typical obligations of a permissive FOSS license?
+Name some permissive FOSS licenses.
+What does license reciprocity mean?
+Name some copyleft-style licenses.
+What needs to be distributed for code used under a copyleft license? 
+Are Freeware and Shareware software considered FOSS?
+What is a multi-license?
+What information may you find in FOSS Notices, and how may the notices be used? 
+CHAPTER 3
+Introduction to FOSS Compliance
+FOSS Compliance Goals
+Know your obligations. You should have a process for identifying and tracking FOSS components that are present in your software
+
+Satisfy license obligations. Your process should be capable of handling FOSS license obligations that arise from your organization’s business practices
+
+
+What Compliance Obligations Must Be Satisfied?
+Depending on the FOSS license(s) involved, your compliance obligations may consist of:
+Attribution and Notices. You may need to provide or retain copyright and license text in the source code and/or product documentation or user interface, so that downstream users know the origin of the software and their rights under the licenses. You may also need to provide notices regarding modifications, or full copies of the license.
+Source code availability. You may need to provide source code for the FOSS software, for modifications you make, for combined or linked software, and scripts that control the build process.
+Reciprocity. You may need to maintain modified versions or derivative works under the same license that governs the FOSS component.
+Other terms. The FOSS license may restrict use of the copyright holder name or trademark, may require modified versions to use a different name to avoid confusion, or may terminate upon any breach.
+FOSS Compliance Issues: Distribution
+Dissemination of material to an outside entity 
+Applications downloaded to a user’s machine or mobile device
+JavaScript, web client, or other code that is downloaded to the user’s machine 
+For some FOSS licenses, access via a computer network can be
+a “trigger” event
+Some licenses define the trigger event to include permitting access to software running on a server (e.g., all versions of the Affero GPL if the software is modified) or in the case of “users interacting with it remotely through a computer network”
+
+FOSS Compliance Issues: Modification
+Changes to the existing program (e.g., additions, deletions of code in a file, combining components together)
+Under some FOSS licenses, modifications may cause additional obligations upon distribution, such as:
+Providing notice of modification 
+Providing accompanying source code 
+Licensing modifications under the same license that governs the FOSS component
+
+
+FOSS Compliance Program
+Organizations that have been successful at FOSS compliance have created their own FOSS Compliance Programs (consisting of policies, processes, training and tools) to:
+Facilitate effective usage of FOSS in their products (commercial or otherwise)
+Respect FOSS developer/owner rights and comply with license obligations
+Contribute to and participate in FOSS communities
+Implementing Compliance Practices
+Prepare business processes and sufficient staff to handle:
+Identification of the origin and license of all internal and external software
+Tracking FOSS software within the development process
+Performing FOSS review and identifying license obligations
+Fulfillment of license obligations when product ships 
+Oversight for FOSS Compliance Program, creation of policy, and compliance decisions
+Training
+Compliance Benefits
+Benefits of a robust FOSS Compliance program include:
+Increased understanding of the benefits of FOSS and how it impacts your organization
+Increased understanding of the costs and risks associated with using FOSS 
+Increased knowledge of available FOSS solutions
+Reduction and management of infringement risk, increased respect of FOSS developers/owners’ licensing choices
+Fostering relationships with the FOSS community and FOSS organizations
+
+Check Your Understanding
+What does FOSS compliance mean?
+What are two main goals of a FOSS Compliance Program?
+List and describe important business practices of a FOSS Compliance Program.
+What are some benefits of a FOSS Compliance Program?
+
+CHAPTER 4
+Key Software Concepts
+for FOSS Review
+How do you want to use a FOSS component?
+Common scenarios include:
+Incorporation
+Linking
+Modification
+Translation
+
+
+Incorporation
+A developer may copy portions of a FOSS component into your software product. 
+
+Relevant terms include:
+Integrating
+Merging
+Pasting
+Adapting
+Inserting
+
+Linking
+A developer may link or join a FOSS component with your software product. 
+
+Relevant terms include:
+Static/Dynamic Linking
+Pairing
+Combining
+Utilizing
+Packaging
+Creating interdependency
+
+Modification
+A developer may make changes to a FOSS component, including:
+
+Adding/injecting new code into the FOSS component
+Fixing, optimizing or making changes to the FOSS component
+Deleting or removing code
+Translation
+A developer may transform the code from one state to another.
+
+Examples include:
+Translating Chinese to English 
+Converting C++ to Java 
+Compiling into binary
+
+Development Tools
+Development tools may perform some of these operations behind the scenes.
+
+For example, a tool may inject portions of its own code into output of the tool.
+
+How is the FOSS component distributed?
+Who receives the software?
+Customer/Partner
+Community project
+Another legal entity within the business group (this may count as distribution)
+
+What format for delivery?
+Source code delivery
+Binary delivery
+Pre-loaded onto hardware
+Check Your Understanding
+What is incorporation?
+What is linking?
+What is modification?
+What is translation?
+What factors are important in assessing a distribution?
+
+
+CHAPTER 5
+Running a FOSS Review
+FOSS Review
+After Program and Product Management and Engineers have reviewed proposed FOSS components for usefulness and quality, a review of the rights and obligations
+associated with the use of the selected components should be initiated
+A key element to a FOSS Compliance Program is a FOSS Review process. This process is where a company can analyze the FOSS software it uses and understand its rights and obligations 
+The FOSS Review process includes the following steps:
+Gather relevant information
+Analyze and understand license obligations
+Provide guidance compatible with company policy and business objectives
+
+Initiating a FOSS Review
+What information do you need to gather?
+When analyzing FOSS usage, collect information about the identity of the FOSS component, its origin, and how the FOSS component will be used. This may include:
+FOSS Review Team
+A FOSS Review team includes the company representatives that support, guide, coordinate and review the use of FOSS. These representatives may include:
+Legal to identify and evaluate license obligations
+Source code scanning and tooling support to help identify and track FOSS usage
+Engineering Specialists working with business interests, commercial licensing, export compliance, etc., who may be impacted by FOSS usage
+Analyzing Proposed FOSS Usage
+The FOSS Review team should assess the information it has gathered before providing guidance for issues. This may include scanning the code to confirm the accuracy of the information.
+
+The FOSS Review team should consider:
+Is the code and associated information complete, consistent and accurate?
+Does the declared license match what is in the code files?
+Does the license permit use with other components of the software? 
+
+Source Code Scanning Tools
+There are many different automated source code scanning tools. 
+All of the solutions address specific needs and - for that reason - none will solve all possible challenges
+Companies pick the solution most suited to their specific market area and product
+Many companies use both an automated tool and manual review
+A good example of freely available source code scanning tool is FOSSology,
+a project hosted by the Linux Foundation:
+https://www.fossology.org 
+Working through the FOSS Review
+The FOSS Review process crosses disciplines, including engineering, business, and legal teams. It should be interactive to ensure all those groups correctly understand the issues and can create clear, shared guidance.
+FOSS Review Oversight
+Check Your Understanding
+What is the purpose of a FOSS Review?
+What is the first action you should take if you want to use FOSS components?
+What should you do if you have a question about using FOSS?
+What kinds of information might you collect for a FOSS review?
+What information helps identify who is licensing the software? 
+What additional information is important when reviewing a FOSS component from an outside vendor?
+What steps can be taken to assess the quality of information collected in a FOSS Review?
+
+CHAPTER 6
+End to End Compliance Management (Example Processes)
+Introduction
+Compliance management is a set of actions that manages FOSS components used in products. Companies may have similar processes in place for proprietary components. FOSS components are called "Supplied Software" in the OpenChain specification.
+Such actions often include: 
+Identifying all the FOSS components used in Supplied Software 
+Identifying and tracking all obligations created by those components 
+Confirming that all obligations have been or will be met
+Small companies may use a simple checklist and enterprises a detailed process.
+Example Small to Medium Company Checklist
+Ongoing Compliance Tasks:
+Discover all FOSS early in the procurement/development cycle
+Review and Approve all FOSS components used 
+Verify the information necessary to satisfy FOSS obligations
+Review and approve any outbound contributions to FOSS projects
+
+Support Requirements:
+Ensure adequate compliance staffing and designate clear lines of responsibility 
+Adapt existing Business Processes to support the FOSS compliance program
+Have training on the organization’s FOSS policy available to everyone
+Track progress of all FOSS compliance activities
+
+
+
+Outcome: 
+A compliance record is created (or updated) for the FOSS 
+An audit is requested to review the source code with a scope a defined as exhaustive or limited according to FOSS policy requirements.
+
+
+
+
+
+Based on the results of the software audit and review in previous steps, software may or may not be approved for use
+The approval should specify versions of approved FOSS components, the approved usage model for the component, and any other applicable obligations under the FOSS license
+Approvals should be made at appropriate authority levels
+
+
+Once a FOSS component has been approved for usage in a product, it should be added to the software inventory for that product 
+The approval and its conditions should be registered in a tracking system 
+The tracking system should make it clear that a new approval is needed for a new version of a FOSS component or if a new usage model is proposed 
+
+Prepare appropriate notices for any FOSS used in a product release:
+Acknowledge the use of FOSS by providing full copyright and attribution notices 
+Inform the end user of the product on how to obtain a copy of the FOSS source code (when applicable, for example in the case of GPL and LGPL)
+Reproduce the entire text of the license agreements for the FOSS code included in the product as needed 
+
+
+
+Check Your Understanding
+What is involved in compliance due diligence (for our example process, describe the steps at a high level)?
+Identification
+Audit source code
+Resolving issues
+Performing reviews
+Approvals
+Registration/approval tracking
+Notices
+Pre-distribution verifications
+Accompanying source code distribution
+Verification
+What does an architecture review look for?
+CHAPTER 7
+Avoiding Compliance Pitfalls
+Compliance Pitfalls
+This chapter will describe some potential pitfalls to avoid in the compliance process:
+Intellectual Property (IP) pitfalls
+License Compliance pitfalls
+Compliance Process pitfalls
+
+
+Intellectual Property Pitfalls
+Intellectual Property Pitfalls
+License Compliance Pitfalls
+License Compliance Pitfalls
+Compliance Process Failures
+Compliance Process Failures
+Ensure Compliance Prior to Product Shipment
+Companies must make compliance a priority before any product (in whatever form) ships
+Prioritizing compliance promotes:
+More effective use of FOSS within your organization
+Better relations with the FOSS community and FOSS organizations
+
+
+Establishing Community Relationships
+As a company that uses FOSS in a commercial product, it is best to create and maintain a good relationship with the FOSS community - in particular, with the specific communities related to the FOSS projects you use and deploy in your commercial products. 
+
+
+
+Check Your Understanding
+What types of pitfalls can occur in FOSS compliance? 
+Give an example of an intellectual property failure.
+Give an example of a license compliance failure.
+Give an example of a compliance process failure.
+What are the benefits of prioritizing compliance?
+What are the benefits of maintaining a good community relationship?
+CHAPTER 8
+Developer Guidelines
+Developer Guidelines
+Select code from high quality, well supported FOSS communities
+Seek guidance
+Request formal approval for each FOSS component you are using 
+Do not check un-reviewed code into any internal source tree
+Request formal approval for outside contributions to FOSS projects
+Preserve existing licensing information
+Do not remove or in any way disturb existing FOSS licensing copyrights or other licensing information from any FOSS components that you use. All copyright and licensing information is to remain intact in all FOSS components
+Do not re-name FOSS components unless you are required to under the FOSS license (e.g., required renaming of modified versions)
+Gather and retain FOSS project information required for your FOSS review process
+
+Anticipate Compliance Process Requirements
+Include time required to follow established FOSS policy in work plans
+Follow the developer guidelines for using FOSS software, particularly incorporating or linking FOSS code into proprietary or third party source code or vice versa 
+Review architecture plans and avoid mixing components governed by incompatible FOSS licenses
+Always update compliance verification - for every product
+Verify compliance on a product-by-product basis: Just because a FOSS package is approved for use in one product does not necessarily mean it will be approved for use in a second product
+And for every upgrade to newer versions of FOSS 
+Ensure that each new version of the same FOSS component is reviewed and approved 
+When you upgrade the version of a FOSS package, make sure that the license of the new version is the same as the license of the older used version (license changes can occur between version upgrades)
+If a FOSS project’s license changes, ensure that compliance records are updated and that the new license does not create a conflict
+
+Compliance Process Applies to all FOSS components
+In-bound software
+Take steps to understand what FOSS is included in software delivered by suppliers 
+Evaluate your obligations for all of the software that will be included in your products
+Always audit source code you received from your software providers or alternatively make it a company policy that software providers must deliver you a source code audit report for any source code you receive
+Check Your Understanding
+Name some general guidelines developers can practice when working with FOSS.
+Should you remove or alter FOSS license header information?
+Name some important steps in a compliance process.
+How can a new version of a previously-reviewed FOSS component create new compliance issues?
+What risks should you address with in-bound software?
+
+Learn more through the free Compliance Basics for Developers hosted by the Linux Foundation at: 
+https://training.linuxfoundation.org/linux-courses/open-source-compliance-courses/ compliance-basics-for-developers
+
