@@ -1,0 +1,139 @@
+** CHAPTER 5
+
+Running a FOSS Review
+
+# --------------------
+
+** FOSS Review
+
+- After Program and Product Management and Engineers have
+  reviewed proposed FOSS components for usefulness and quality, a review
+  of the rights and obligations
+  associated with the use of the selected components should be initiated
+
+- A key element to a FOSS Compliance Program is a FOSS Review process. This
+  process is where a company can analyze the FOSS software it uses and
+  understand its rights and obligations 
+
+- The FOSS Review process includes the following steps:
+  - Gather relevant information
+  - Analyze and understand license obligations
+  - Provide guidance compatible with company policy and business objectives
+
+# --------------------
+
+** Initiating a FOSS Review
+
+Anyone working with FOSS in the company should be able to initiate a FOSS
+Review, including Program or Product Managers, Engineers, and Legal. 
+
+Note: The process often starts when new FOSS-based software is selected by
+engineering or outside vendors.
+
+# --------------------
+
+** What information do you need to gather?
+
+- When analyzing FOSS usage, collect information about the identity of the FOSS
+  component, its origin, and how the FOSS component will be used. This may
+  include:
+  - Package name
+  - Status of the community around the package (activity, diverse membership,
+    responsiveness)
+  - Version
+  - Download or source code URL
+  - Copyright owner
+  - License and License URL
+  - Attribution and other notices and URLs
+  - Description of modifications intended to be made
+  - List of dependencies
+  - Intended use in your product
+  - First product release that will include the package
+  - Location where the source code will be maintained
+  - Possible previous approvals in another context
+  - If from an external vendor: 
+  - Development team's point of contact
+  - Copyright notices, attribution, source code for vendor modifications if
+    needed to satisfy license obligations
+
+# --------------------
+
+** FOSS Review Team
+
+A FOSS Review team includes the company representatives that support, guide, coordinate and
+review the use of FOSS. These representatives may include:
+
+- Legal to identify and evaluate license obligations
+
+- Source code scanning and tooling support to help identify and track FOSS usage
+
+- Engineering Specialists working with business interests, commercial licensing, export
+  compliance, etc., who may be impacted by FOSS usage
+
+# --------------------
+
+** Analyzing Proposed FOSS Usage
+
+The FOSS Review team should assess the information it has gathered before providing guidance
+for issues. This may include scanning the code to confirm the accuracy of the information.
+
+The FOSS Review team should consider:
+- Is the code and associated information complete, consistent and accurate?
+- Does the declared license match what is in the code files?
+- Does the license permit use with other components of the software? 
+
+# --------------------
+
+Source Code Scanning Tools
+
+- There are many different automated source code scanning tools. 
+
+- All of the solutions address specific needs and - for that reason - none
+  will solve all possible challenges
+
+- Companies pick the solution most suited to their specific market area and
+  product
+
+- Many companies use both an automated tool and manual review
+
+- A good example of freely available source code scanning tool is FOSSology,
+  a project hosted by the Linux Foundation:
+  https://www.fossology.org 
+
+# --------------------
+
+** Working through the FOSS Review
+
+The FOSS Review process crosses disciplines, including engineering, business, and legal teams. It
+should be interactive to ensure all those groups correctly understand the issues and can create
+clear, shared guidance.
+
+# --------------------
+
+FOSS Review Oversight
+
+The FOSS Review process should have executive oversight to resolve disagreements and approve
+the most important decisions.
+
+# --------------------
+
+** Check Your Understanding
+
+- What is the purpose of a FOSS Review?
+
+- What is the first action you should take if you want to use FOSS components?
+
+- What should you do if you have a question about using FOSS?
+
+- What kinds of information might you collect for a FOSS review?
+
+- What information helps identify who is licensing the software? 
+
+- What additional information is important when reviewing a FOSS component
+  from an outside vendor?
+
+- What steps can be taken to assess the quality of information collected in a
+  FOSS Review?
+
+# --------------------
+
