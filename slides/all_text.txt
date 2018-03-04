@@ -313,8 +313,8 @@ Introduction to FOSS Licenses
     module must
     - (according to GPL-2.0) be distributed under GPL-2.0 only, and
     - (according to EPL-1.0) under EPL-1.0 only. 
-    - The distributor cannot satisfy both conditions at once so the module may not be distributed. 
-    - This is an example of license incompatibility.
+  - The distributor cannot satisfy both conditions at once so the module may not be distributed. 
+  - This is an example of license incompatibility.
 
 The definition of “derivative work” is subject to different views in the FOSS community and
 its interpretation in law is likely to vary from jurisdiction to jurisdiction.
