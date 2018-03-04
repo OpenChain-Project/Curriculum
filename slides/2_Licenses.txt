@@ -104,7 +104,7 @@ Introduction to FOSS Licenses
   usable by the public without requiring a license 
 
 - Developers may include a public domain declaration with their software 
-  - E. g., “All of the code and documentation in this software has been dedicated to the public
+  - E.g., “All of the code and documentation in this software has been dedicated to the public
     domain by the authors.”
   - The public domain declaration is not the same as a FOSS license
 
