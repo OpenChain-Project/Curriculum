@@ -89,7 +89,7 @@ Identify FOSS components
 
 ** Auditing Source Code
 
-Identify FOSS licenses
+Identify and audit FOSS licenses
 
 - Steps: 
   - Source code for the audit is identified
