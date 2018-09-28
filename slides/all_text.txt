@@ -621,14 +621,14 @@ Running a FOSS Review
 
 ** FOSS Review
 
-- After Program and Product Management and Engineers have
-  reviewed proposed FOSS components for usefulness and quality, a review
-  of the rights and obligations
-  associated with the use of the selected components should be initiated
+- After Program and Product Management and Engineers have
+  reviewed proposed FOSS components for usefulness and quality, a review
+  of the rights and obligations
+  associated with the use of the selected components should be initiated
 
 - A key element to a FOSS Compliance Program is a FOSS Review process. This
   process is where a company can analyze the FOSS software it uses and
-  understand its rights and obligations 
+  understand its rights and obligations 
 
 - The FOSS Review process includes the following steps:
   - Gather relevant information
@@ -640,7 +640,7 @@ Running a FOSS Review
 ** Initiating a FOSS Review
 
 Anyone working with FOSS in the company should be able to initiate a FOSS
-Review, including Program or Product Managers, Engineers, and Legal. 
+Review, including Program or Product Managers, Engineers, and Legal. 
 
 Note: The process often starts when new FOSS-based software is selected by
 engineering or outside vendors.
@@ -680,7 +680,7 @@ review the use of FOSS. These representatives may include:
 
 - Legal to identify and evaluate license obligations
 
-- Source code scanning and tooling support to help identify and track FOSS usage
+- Source code scanning and tooling support to help identify and track FOSS usage
 
 - Engineering Specialists working with business interests, commercial licensing, export
   compliance, etc., who may be impacted by FOSS usage
@@ -701,19 +701,157 @@ The FOSS Review team should consider:
 
 Source Code Scanning Tools
 
-- There are many different automated source code scanning tools. 
+- There are many different automated source code scanning tools with capabilities including (but are not limited to):
+License scanning
+Binary scanning
+Code scanning
+Dev Ops integration
+Component management
 
-- All of the solutions address specific needs and - for that reason - none
-  will solve all possible challenges
+- All of the solutions address specific needs and none will solve all possible challenges. 
 
-- Companies pick the solution most suited to their specific market area and
-  product
+- Many companies use both an automated tool and manual review.
 
-- Many companies use both an automated tool and manual review
+- A good example of freely available source code scanning tool is FOSSology, 
+a project hosted by the Linux Foundation: https://www.fossology.org 
 
-- A good example of freely available source code scanning tool is FOSSology,
-  a project hosted by the Linux Foundation:
-  https://www.fossology.org 
+# --------------------
+
+License Scanner: Introduction
+
+- Purpose:
+Identifies licenses and license relevant statements
+  
+- Problem
+  - Licensing of OSS can be heterogeneous, different licensing applies to parts of OSS
+  - Licensing statements are not uniform
+  - Many licenses exist, number growing
+
+# --------------------
+
+License Scanner: Technical
+
+- Mode of operation: 
+Tool searches in content for license relevant keywords, phrases, license texts
+  - Different approaches can be applied: regular expressions, text comparison, phrase collection
+  - Requires database of license texts, licensing statements
+  - Comparison with existing license texts enables exact identification 
+  - Licensing information can summarized for open source package
+  
+# --------------------
+
+Binary Scanner: Introduction
+
+- Purpose:
+Identifies used software packages in software binaries
+  
+- Problem: 
+A binary is comprised of different software packages, but if not declared, not obvious to determine
+  - Applies in compiled programming languages: 
+  programming language code is translated (=compiled) into machine executable code (machine = processor)
+  - Script languages (e.g. JavaScript) are not compiled
+  - Binaries are usually not readable, understanding contents difficult
+  - However, identification of contents can be inevitable for understanding required license compliance tasks
+
+# --------------------
+
+Binary Scanner: Technical
+
+- Mode of operation: 
+Binary scanning is a heuristic, secure mapping not supported for every possible binary
+
+- Compiled machine language can contain characteristic elements 
+  - For example used string variables (=text) or other content compiled into the binary
+  - Simpler method: capturing file names, or for run-time code (e.g. Java): method and field names 
+
+- Requires database of mapping from source code to resulting artefacts in binary
+
+# --------------------
+
+Code Scanner: Introduction
+
+- Purpose: 
+Can identify published origin of source code and other files
+  
+- Problem: 
+how to understand that source code or other files have been taken from elsewhere, 
+not self-created, and not declared
+
+- If "own" software is not entirely own software and not understood: 
+  - Applies in compiled programming languages: 
+  programming language code is translated (=compiled) into machine executable code (machine = processor)
+  - Missing rights for business case in "own" software
+  - But distribution requires distribution rights are available
+  - Identification of origin is first step to understand available rights
+
+# --------------------
+
+Code Scanner: Technical
+
+- Mode of operation: 
+upload source code or just files or fingerprints of it, 
+get origin in case it is captured by database
+
+- File contents are compared with contents from (huge) database of published contents 
+  - Fingerprinting of file contents (“hashing”) allow for accelerated search and storage in database
+  - Not only coverage of entire files, but fragments of it
+  - Content is large (e.g. the entire GitHub)
+
+# --------------------
+
+Dev Ops Integration: Introduction
+
+- Purpose: 
+Uses the information from building the software to determine OSS used
+  
+- Problem: 
+for larger software projects a tool based approach is inevitable to understand involved OSS
+  - Modern software building environments have defined dependencies
+  - During compilation, dependencies can be captured to understand used dependencies
+  - License compliance integrated into the Dev Ops tooling implements automation
+  - Reporting as part of Dev Ops tooling reduces manual efforts
+  - Enables short release cycles in an agile environment
+
+# --------------------
+
+Dev Ops Integration: Technical
+
+- Integration into Dev Ops tooling requires customization 
+  - Building software depends on used technology as well as individually setup tooling
+  - Today, building environments sometimes contain already metadata about licensing of involved OSS software
+  - Identified software elements may require additional checks to determine actual licensing information 
+  (in case of heterogeneous licensing)
+
+# --------------------
+
+Component Catalogue: Introduction
+
+- Purpose: 
+Collect information about used software components and their use in products 
+or projects is centrally collected and can be reused
+  
+- Problem: 
+Once analyzed component with respect to license compliance shall not require repeated analyses, 
+but reuse of information shall be possible
+
+- Component catalogue: 
+  - Maps component usage in products or projects
+  - Makes sense if an organization has actually multiple products
+  - Shows organization the important software components
+  - Allows for a comprehensive overview about involved licensing per product
+
+# --------------------
+
+Component Catalogue: Technical
+
+- A component catalogue can be viewed as a portal/database holding the catalogue information
+
+- Another use case is archiving OSS distributions / source code 
+  - Storing also multiple other files, for example license analysis reports, SPDX files
+  
+- Provides reporting output, for example OSS product documentation 
+
+- Also integration in Dev Ops tooling is useful to automatically create BOM of products
 
 # --------------------
 
@@ -742,7 +880,7 @@ the most important decisions.
 
 - What kinds of information might you collect for a FOSS review?
 
-- What information helps identify who is licensing the software? 
+- What information helps identify who is licensing the software? 
 
 - What additional information is important when reviewing a FOSS component
   from an outside vendor?
@@ -751,7 +889,6 @@ the most important decisions.
   FOSS Review?
 
 # --------------------
-
 ** CHAPTER 6
 
 End to End Compliance Management (Example Processes)
@@ -1397,8 +1534,6 @@ Learn more through the free Compliance Basics for Developers hosted by
 the Linux Foundation at: 
 https://training.linuxfoundation.org/linux-courses/open-source-compliance-courses/ compliance-basics-for-developers
 
-# --------------------
-
 ** CHAPTER 9
 
 Tooling Use Cases
@@ -1752,299 +1887,3 @@ Tools are there, but requirements and purpose require understanding
 - Requires integration of different functions
 - Integration poses classic IT problems
 - Interfaces must be understood to avoid manual effort
-
-# --------------------
-
-** CHAPTER 10
-
-Tooling Main Types of Tooling
-
-# --------------------
-
-** Overview
-
-Main types of tools in the area of license compliance include
-(but are not limited to):
-
-- Source code scanning
-- License scanning
-- Binary scanning
-- Dev Ops integration
-- Component management
-
-# --------------------
-
-** 1. License Scanner
-
-# --------------------
-
-** License Scanner: Introduction
-
-- Purpose:
-  - Identifies licenses and license relevant statements
-
-- Other Identifications:
-  - Copyright statements, author statements, acknowledgements
-
-- Also of interest:
-  - Export control statements, more static code analysis
-
-# --------------------
-
-** License Scanner: Solved Problem
-
-Problem: Identify licensing in Open Source Software packages
-
-- Licensing in Open Source Software
-  - Licensing of OSS can be heterogeneous, different licensing applies to parts of OSS
-  - Licensing statements are not uniform
-  - Many licenses exist, number growing
--> Tool based licensing identification required for complicated licensing situations
-
-# --------------------
-
-** License Scanner: Technical
-
-Mode of operation: Tool searches in content
-for license relevant keywords, phrases, license texts
-
-- Searching in every file of software uploaded: requires source code distribution
-- Different approaches can be applied: regular expressions, text comparison, phrase collection
-- Requires database of license texts, licensing statements
-- Comparison with existing license texts enables exact identification 
-- Licensing information can summarized for open source packages
-
-# --------------------
-
-** License Scanner: More remarks
-
-- License scanning does not require huge database
-- However, updates are necessary as licensing statements evolve and new licenses are still created
-- Identified licensing information of a software package can be exchanged using SPDX files
-- Approach makes sense for OSS licenses, commercial licensing is even more heterogeneous
-- License identification precision depends on available licensing information and may require expert knowledge for analysis
-
-# --------------------
-
-** License Scanner: Main Usage
-
-- Inbound Software <- Scanning Inbound Source Code for Licenses
-- Own Software
-- Outbound Software
-
-# --------------------
-
-** 2. Binary Scanner
-
-# --------------------
-
-** Binary Scanner: Introduction
-
-- Purpose:
-  - Identifies used software packages in software binaries
-- Other identifications:
-  - Can also determine the versions of software packages
-- Also of interest:
-  - Identifying used software packages for creating the binary also enables identification of vulnerabilities
-
-# --------------------
-
-** Binary Scanner: Solved Problem
-
-- Problem: A binary is comprised of different software packages, but if not declared, not obvious to determine
-- Applies in compiled programming languages: programming language code is translated (=compiled) into machine executable code (machine = processor)
-- Script languages (e.g. JavaScript) are not compiled
-- Binaries are usually not readable, understanding contents difficult
-- However, identification of contents can be inevitable for understanding required license compliance tasks
-
-# --------------------
-
-** Binary Scanner: Technical
-
-- Compiled machine language can contain characteristic elements
-- For example used string variables (=text) or other content compiled into the binary
-- Simpler method: capturing file names, or for run-time code (e.g. Java): method and field names
-- Requires database of mapping from source code to resulting artefacts in binary
-
-# --------------------
-
-** Binary Scanner: More remarks
-
-- Binary scanning is a heuristic, secure mapping not supported for every possible binary 
-- Topic connected with reproducible builds (then, binaries can be compared more efficiently)
-- Database requires updates because, because new software is published every day
-  - (similar with source code scanning)
-
-# --------------------
-
-** Binary Scanner: Main Usage
-
-- Inbound Software <- Scanning Inbound Binaries for Involved OSS
-- Own Software
-- Outbound Software
-
-# --------------------
-
-** 3. Source Code Scanner
-
-# --------------------
-
-** Source Code Scanner: Introduction
-
-- Purpose:
-  - Can identify published origin of source code and other files
-
-- Other Identifications:
-  - Icons, images, style descriptions, XML schemes, documentation
-
-- Also of interest:
-  - Programming examples, from blogs and best practise Websites
-
-# --------------------
-
-** Source Code  Scanner: Solved Problem
-
-- Problem: how to understand that source code or other files have been taken from elsewhere, not self-created, and not declared
-- If "own" software is not entirely own software and not understood:
-  - Missing rights for business case in "own" software
-  - But distribution requires distribution rights are available
-  - Identification of origin is first step to understand available rights 
-
-# --------------------
-
-** Source Code  Scanner: Technical
-
-- Mode of operation: upload source code or just files or fingerprints of it, get origin in case it is captured by database 
-  - File contents are compared with contents from (huge) database of published contents
-  - Fingerprinting of file contents (“hashing”) allow for accelerated search and storage in database
-  - Not only coverage of entire files, but fragments of it 
-  - Database requires updates: every day new published OSS
-  - Content is large (e.g. the entire GitHub)
-
-# --------------------
-
-** Source Code  Scanner: More remarks
-
-- Once origin of source is identified, more metadata can be made available:
-  -  Licensing
-  - Vulnerabilities
-- Potential for integration:
-  - Development toolchain
-  - Reporting, BOM
-- Matched content may require expert knowledge to determine relevance
-
-# --------------------
-
-** Source Code  Scanner: Main Usage
-
-- Inbound Software
-- Own Software <- Scanning Own Software for OSS Code Involved
-- Outbound Software
-
-# --------------------
-
-** 4. Dev Ops Integration
-
-# --------------------
-
-** Dev Ops Integration: Introduction
-
-- Purpose:
-  - Uses the information from building the software to determine OSS used
-- Other identifications:
-  - Can be combined with source code scanning, license scanning, binary scanning
-- Also of interest:
-  - Resulting identification of elements during building the software enables the creation of a bill of material (BOM)
-
-# --------------------
-
-** Dev Ops Integration: Solved Problem
-
-- Problem: for larger software projects a tool based approach is inevitable to understand involved OSS
-  - Modern software building environments have defined dependencies
-  - During compilation, dependencies can be captured to understand used dependencies
-  - License compliance integrated into the Dev Ops tooling implements automation
-  - Reporting as part of Dev Ops tooling reduces manual efforts
-  - Enables short release cycles in an agile environment
-
-# --------------------
-
-** Dev Ops Integration: Technical
-
-- Integration into Dev Ops tooling requires customization
-  - Building software depends on used technology as well as individually setup tooling
- - Additional efforts, if software is comprised of different technologies
- - Today, building environments sometimes contain already metadata about licensing of involved OSS software
-  - Identified software elements may require additional checks to determine actual licensing information
-(in case of heterogeneous licensing)
-
-# --------------------
-
-** Dev Ops Integration: More remarks
-
-- Today, a custom task, nothing to "download and double-click"
-- Tooling approach allows for differential approach: once setup and checked, only new dependencies require additional coverage
-
-# --------------------
-
-** Dev Ops Integration: Main Usage
-
-- Inbound Software <- Determining Inbound Software
-- Own Software
-- Outbound Software
-
-# --------------------
-
-** 5. Component Catalogue
-
-# --------------------
-
-** Component Catalogue: Introduction
-
-- Purpose:
-  - Collect information about used software components and their use in products or projects is centrally collected and can be reused
-- Other purposes:
-  - A component catalogue captures also the used components in a product or project, maintains a so-named BOM
-- Also interesting:
-  - Enables also vulnerability management or reuse of export classifications
-
-# --------------------
-
-** Component Catalogue: Solved Problem
-
-- Problem: Once analysed component w.r.t. license compliance shall not require repeated analyses, but reuse of information shall be possible
-- Component catalogue:
-  - Maps component usage in products or projects
-  - Makes sense if an organisation has actually multiple products
-  - Shows organisation the important software components
-  - Allows for a comprehensive overview about involved licensing per product
-
-# --------------------
-
-** Component Catalogue: Technical
-
-- A component catalogue can be viewed as a portal
-- Database holding the catalogue information
-- Another use case is archiving OSS distributions / source code
-- Storing also multiple other files, for example license analysis reports, SPDX files
-- Provides reporting output, for example OSS product documentation
-- Component catalogue can be implemented as Web portal, thus accessible from various client computers in organisation
-
-# --------------------
-
-** Component Catalogue: More remarks
-
-- Component catalogue can be integrated with other license compliance tooling: scanners can directly feed the analyses
-- Also integration in Dev Ops tooling is useful to automatically create BOM of products
-- Component catalogues can also serve uses cases for vulnerability management
-- Another related topic is license management and license metadata
-
-# --------------------
-
-** Component Catalogue: Main Usage
-
-- Inbound Software
-- Own Software
-- Outbound Software <- Creating OSS Documents
-
-# --------------------
