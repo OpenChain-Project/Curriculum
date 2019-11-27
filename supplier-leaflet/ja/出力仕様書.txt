@@ -1,0 +1,112 @@
+ADOBE INDESIGN サービスビューローレポート印刷の指示
+
+ドキュメント名 : OpenChain-GeneralGuideline-0608.indd
+
+日付 : 2019/06/25 17:05
+作成日 : 2019/06/25
+修正日 : 2019/06/25
+
+連絡先の情報
+
+会社名 : 
+連絡先 : 
+所在地 : 
+
+
+
+
+
+電話 : 
+Fax : 
+電子メール : 
+
+特記事項とその他の注意事項
+
+
+
+
+
+
+外部プラグイン 0
+透明オブジェクト : なし
+
+フォント
+17 使用フォント; 0 無効, 2 埋め込み, 0 不完全, 0 保護
+
+フォントはパッケージされていません
+- 名前 : ATC-*AvnN-L-SnGp6N-L*0020*Nu; 形式 : ATC, ステータス : OK
+合成フォントの構成 : A-OTF 新ゴ Pro L,A-OTF 新ゴ Pro L,A-OTF 新ゴ Pro L,A-OTF 新ゴ Pro L,Avenir Next W1G Light,Avenir Next W1G Light,Avenir Next W1G Light,Avenir Next W1G Light,Avenir Next W1G Light,Avenir Next W1G Light,Avenir Next W1G Light,Avenir Next W1G Light,Avenir Next W1G Light,Avenir Next W1G Light
+- 名前 : ATC-*AvnN-L_SnGp6N-L; 形式 : ATC, ステータス : OK
+合成フォントの構成 : A-OTF 新ゴ Pro L,A-OTF 新ゴ Pro L,A-OTF 新ゴ Pro L,A-OTF 新ゴ Pro L,Avenir Next W1G Light,Avenir Next W1G Light,Avenir Next W1G Light,Avenir Next W1G Light,Avenir Next W1G Light,Avenir Next W1G Light,Avenir Next W1G Light,Avenir Next W1G Light,Avenir Next W1G Light,Avenir Next W1G Light
+- 名前 : ATC-*AvnN-M_SnGp6N-M; 形式 : ATC, ステータス : OK
+合成フォントの構成 : A-OTF 新ゴ Pro M,A-OTF 新ゴ Pro M,A-OTF 新ゴ Pro M,A-OTF 新ゴ Pro M,Avenir Next W1G Medium,Avenir Next W1G Medium,Avenir Next W1G Medium,Avenir Next W1G Medium,Avenir Next W1G Medium,Avenir Next W1G Medium,Avenir Next W1G Medium,Avenir Next W1G Medium,Avenir Next W1G Medium,Avenir Next W1G Medium
+- 名前 : ATC-*AvnN-R-SnGp6N-R*0020*Nu; 形式 : ATC, ステータス : OK
+合成フォントの構成 : A-OTF 新ゴ Pro R,A-OTF 新ゴ Pro R,A-OTF 新ゴ Pro R,A-OTF 新ゴ Pro R,Avenir Next W1G Medium,Avenir Next W1G Medium,Avenir Next W1G Medium,Avenir Next W1G Medium,Avenir Next W1G Regular,Avenir Next W1G Regular,Avenir Next W1G Regular,Avenir Next W1G Regular,Avenir Next W1G Regular,Avenir Next W1G Regular
+- 名前 : ATC-*AvnN-R_SnGp6N-R; 形式 : ATC, ステータス : OK
+合成フォントの構成 : A-OTF 新ゴ Pro R,A-OTF 新ゴ Pro R,A-OTF 新ゴ Pro R,A-OTF 新ゴ Pro R,Avenir Next W1G Regular,Avenir Next W1G Regular,Avenir Next W1G Regular,Avenir Next W1G Regular,Avenir Next W1G Regular,Avenir Next W1G Regular,Avenir Next W1G Regular,Avenir Next W1G Regular,Avenir Next W1G Regular,Avenir Next W1G Regular
+- 名前 : ATC-*AvnN-T-SnGp6N-EL-Nu; 形式 : ATC, ステータス : OK
+合成フォントの構成 : A-OTF 新ゴ Pro EL,A-OTF 新ゴ Pro EL,A-OTF 新ゴ Pro EL,A-OTF 新ゴ Pro EL,Avenir Next W1G Thin,Avenir Next W1G Thin,Avenir Next W1G Thin,Avenir Next W1G Thin,Avenir Next W1G Thin,Avenir Next W1G Thin,Avenir Next W1G Thin,Avenir Next W1G Thin,Avenir Next W1G Thin,Avenir Next W1G Thin
+- 名前 : ATC-*AvnN-T_SnGp6N-EL-1; 形式 : ATC, ステータス : OK
+合成フォントの構成 : A-OTF 新ゴ Pro L,A-OTF 新ゴ Pro L,A-OTF 新ゴ Pro L,A-OTF 新ゴ Pro L,Avenir Next W1G Thin,Avenir Next W1G Thin,Avenir Next W1G Thin,Avenir Next W1G Thin,Avenir Next W1G Thin,Avenir Next W1G Thin,Avenir Next W1G Thin,Avenir Next W1G Thin,Avenir Next W1G Thin,Avenir Next W1G Thin
+- 名前 : ShinGoPro-ExLight; 形式 : OpenType CID, ステータス : OK
+- 名前 : ShinGoPro-Light; 形式 : OpenType CID, ステータス : OK
+- 名前 : ShinGoPro-Medium; 形式 : OpenType CID, ステータス : OK
+- 名前 : ShinGoPro-Regular; 形式 : OpenType CID, ステータス : OK
+- 名前 : UDShinGoCOnizPr6-Reg; 形式 : ???, ステータス : 埋め込み
+- 名前 : UDShinGoPro-Regular; 形式 : ???, ステータス : 埋め込み
+フォントはパッケージされています
+- 名前 : AvenirNextW1G-Light; 形式 : OpenType Type 1, ステータス : OK
+- 名前 : AvenirNextW1G-Medium; 形式 : OpenType Type 1, ステータス : OK
+- 名前 : AvenirNextW1G-Regular; 形式 : OpenType Type 1, ステータス : OK
+- 名前 : AvenirNextW1G-Thin; 形式 : OpenType Type 1, ステータス : OK
+
+
+カラーとインキ
+4 プロセスインキ; 0 特色インキ
+
+- 名前と形式 : プロセスシアン; 角度 : 75.000; 線数 / インチ :70.000
+- 名前と形式 : プロセスマゼンタ; 角度 : 15.000; 線数 / インチ :70.000
+- 名前と形式 : プロセスイエロー; 角度 : 0.000; 線数 / インチ :70.000
+- 名前と形式 : プロセスブラック; 角度 : 45.000; 線数 / インチ :70.000
+
+
+リンクと画像
+(無効、または埋め込まれたリンクのみ)
+リンクと画像 : 8 リンク; 0 未更新, 0 無効, 0 アクセス不可
+画像 : 0 埋め込み, 4 RGB カラースペースを使用
+
+
+プリント設定
+PPD : FX DocuPrint C3360 v3017.104 PS H2, (DocuPrint C3360)
+出力 : プリンター
+コピー部数 : 1
+見開き印刷 : はい
+偶数 / 奇数ページ : 両方
+ページ : すべて
+校正 : いいえ
+タイル : なし
+スケール : 100%, 100%
+ページ位置 : 中央揃え
+プリントするレイヤー : 表示中でプリント可能なレイヤー
+印刷マーク : トンボ, 裁ち落とし, レジストレーション
+裁ち落とし : 0 mm, 0 mm, 0 mm, 0 mm
+カラー : コンポジット CMYK
+トラップモード : なし
+解像度 : すべて
+OPI / DCS 画像置換 : いいえ
+ページサイズ : A4
+用紙サイズ : 297.039 mm x 420.158 mm
+方向 : 横置き
+ネガ : いいえ
+ネガ : オフ
+
+
+ファイルパッケージリスト
+
+1. OpenChain-GeneralGuideline-0608.indd; 形式 : Adobe InDesign ドキュメント; サイズ : 3000K
+2. OpenChain-GeneralGuideline-0608.idml; 形式 : InDesign マークアップドキュメント; サイズ : 204K
+3. OpenChain-GeneralGuideline-0608.pdf; 形式 : Adobe Acrobat ドキュメント; サイズ : 1696K
+4. AvenirNextW1G-Light.otf; 形式 : フォントファイル; サイズ : 101K
+5. AvenirNextW1G-Medium.otf; 形式 : フォントファイル; サイズ : 112K
+6. AvenirNextW1G-Regular.otf; 形式 : フォントファイル; サイズ : 111K
+7. AvenirNextW1G-Thin.otf; 形式 : フォントファイル; サイズ : 100K
